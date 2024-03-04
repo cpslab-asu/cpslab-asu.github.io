@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Hugo
-        run: snap install hugo
+        run: sudo snap install hugo
       - uses: actions/checkout@v4
         with:
           submodules: recursive
