@@ -1,0 +1,36 @@
+baseURL = 'https://cpslab-asu.github.io/'
+languageCode = 'en-us'
+title = 'CPSLab @ ASU'
+theme = "hextra"
+copyright = "© 2023 CPSLab@ASU"
+
+[menu]
+    [[menu.main]]
+    name = "Publications"
+    weight = 1
+    pageRef = "/publications"
+
+    [[menu.main]]
+    name = "Members"
+    weight = 2
+    pageRef = "/members"
+
+    [[menu.main]]
+    name = "Github"
+    weight = 3
+    url = "https://github.com/cpslab-asu"
+    params = { icon = "github" }
+
+[params]
+    [params.navbar]
+    displayLogo = false
+
+    [params.page]
+    width = "normal"
+
+    [params.search]
+    enable = true
+    type = "flexsearch"
+
+    [params.search.flexsearch]
+    index = "content"
